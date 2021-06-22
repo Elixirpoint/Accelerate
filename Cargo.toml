@@ -1,6 +1,11 @@
 [package]
+<<<<<<< HEAD
 name = "accelerate"
 version = "0.1.0"
+=======
+name = "Accelerate"
+version = "0.0.1-SNAPSHOT"
+>>>>>>> 3e9e071727842e52a2c2b1eb32d09978ee515560
 edition = "2018"
 authors = [ "Elixirpoint" ]
 description = "A Minecraft server implementation focused on optimization, written in rust."
