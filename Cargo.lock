@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "better-mc"
-version = "0.1.0"
+name = "Accelerate"
+version = "0.0.1-SNAPSHOT"
