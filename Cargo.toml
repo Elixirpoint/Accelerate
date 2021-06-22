@@ -1,7 +1,14 @@
 [package]
-name = "better-mc"
+name = "accelerate"
 version = "0.1.0"
 edition = "2018"
+authors = [ "Elixirpoint" ]
+description = "A Minecraft server implementation focused on optimization, written in rust."
+readme = "README.md"
+homepage = "https://elixirpoint.dev/accelerate/"
+repository = "https://github.com/Elixirpoint/Accelerate/"
+keywords = ["rust", "minecraft", "minecraft-server", "server"]
+publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
