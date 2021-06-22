@@ -1,3 +1,3 @@
-# Better MC
+# Accelerate
 
-A better Minecraft server, written in rust by the boys.
+A Minecraft server implementation focused on optimization, written in rust.
