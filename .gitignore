@@ -1,2 +1,6 @@
-/target
+# Build files
+target/
+# Environment variables
 .env
+# Darwin (macOS/OS X) file-system dust
+.DS_Store/

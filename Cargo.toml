@@ -1,15 +1,9 @@
-[package]
-name = "accelerate"
-version = "0.1.0"
-edition = "2018"
-authors = [ "Elixirpoint" ]
-description = "A Minecraft server implementation focused on optimization, written in Rust."
-readme = "README.md"
-homepage = "https://elixirpoint.github.io/Accelerate/"
-repository = "https://github.com/Elixirpoint/Accelerate/"
-keywords = ["rust", "minecraft", "minecraft-server", "server"]
-publish = false
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+members = [
+    # Main directory
+    "accelerate",
+]
+default-members = [
+    # Main directory
+    "accelerate",
+]
