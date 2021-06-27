@@ -4,4 +4,4 @@ This branch has the code for the website. For the actual custom Minecraft server
 
 ## Licence
 
-This project is released under the AGPLv3 license. Learn more in the [LICENSE.txt](LICENCE.txt) file.
+This project is released under the AGPLv3 license. Learn more in the [LICENSE](LICENCE) file.
