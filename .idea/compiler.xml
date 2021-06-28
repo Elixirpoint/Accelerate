@@ -23,10 +23,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="java" />
       </profile>
+      <profile name="Annotation profile for accelerate" enabled="true">
+        <sourceOutputDir name="accelerate/java/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="accelerate/java/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Accelerate" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Accelerate" target="1.5" />
+      <module name="Accelerate" target="16" />
       <module name="java" target="16" />
+      <module name="java (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

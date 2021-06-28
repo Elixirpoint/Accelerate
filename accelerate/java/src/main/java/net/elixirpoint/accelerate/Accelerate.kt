@@ -1,9 +1,9 @@
-package net.elixirpoint.accelerate;
+package net.elixirpoint.accelerate
 
-public class Accelerate
-{
-    public static void main(String[] args)
-    {
-        System.out.println("Hello World!!");
+object Accelerate {
+    @JvmStatic
+    fun main(args: Array<String>) {
+        val message = Main("Hello World!")
+        println(message.message)
     }
 }
