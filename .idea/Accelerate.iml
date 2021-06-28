@@ -3,10 +3,10 @@
   <component name="AutoImportedSourceRoots">
     <option name="directories">
       <list>
-        <option value="C:\Users\19380\IdeaProjects\Accelerate\accelerate\java/src/main/java" />
-        <option value="C:\Users\19380\IdeaProjects\Accelerate\accelerate\java/src/main/kotlin" />
-        <option value="C:\Users\19380\IdeaProjects\Accelerate\accelerate\java/src/test/java" />
-        <option value="C:\Users\19380\IdeaProjects\Accelerate\accelerate\java/src/test/kotlin" />
+        <option value="$MODULE_DIR$/accelerate/java/src/main/java" />
+        <option value="$MODULE_DIR$/accelerate/java/src/main/kotlin" />
+        <option value="$MODULE_DIR$/accelerate/java/src/test/java" />
+        <option value="$MODULE_DIR$/accelerate/java/src/test/kotlin" />
       </list>
     </option>
   </component>
@@ -16,7 +16,9 @@
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="hibernate:hibernate.cfg.xml" />
+        </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/accelerate/java/hibernate/hibernate.cfg.xml" />
       </configuration>
@@ -46,6 +48,7 @@
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
           <factory-entry name="Accelerate" />
+          <factory-entry name="default" />
         </datasource-mapping>
         <naming-strategy-map />
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/accelerate/src/META-INF/persistence.xml" />
@@ -65,11 +68,11 @@
       <configuration sdkName="" />
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
         <compilerSettings />
         <compilerArguments>
-          <option name="languageVersion" value="1.4" />
-          <option name="apiVersion" value="1.4" />
+          <option name="languageVersion" value="1.5" />
+          <option name="apiVersion" value="1.5" />
           <option name="pluginOptions">
             <array />
           </option>
@@ -83,7 +86,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_16">
     <output url="file://$MODULE_DIR$/accelerate/java/target/classes" />
     <output-test url="file://$MODULE_DIR$/accelerate/java/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -131,5 +134,6 @@
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test:1.5.20" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:3.0.8" level="project" />
   </component>
 </module>

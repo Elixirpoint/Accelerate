@@ -14,7 +14,7 @@
         <repository>
             <id>jfrog</id>
             <name>jfrog</name>
-            <url>https://oss.jfrog.org/artifactory/oss-release-local</url>
+            <url>https://oss.jfrog.org/artifactory/oss-release-local/</url>
         </repository>
         <repository>
             <id>sonatype</id>
@@ -44,7 +44,7 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>4.0.0</version>
+            <version>3.0.8</version>
             <type>pom</type>
         </dependency>
     </dependencies>
@@ -159,6 +159,7 @@
                 </executions>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
