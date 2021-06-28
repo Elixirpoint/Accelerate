@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Groovy-Eclipse" />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
       <entry name="!?*.form" />
@@ -21,9 +22,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="accelerate" />
         <module name="java" />
       </profile>
-      <profile name="Annotation profile for accelerate" enabled="true">
+      <profile name="Annotation profile for Accelerate" enabled="true">
         <sourceOutputDir name="accelerate/java/target/generated-sources/annotations" />
         <sourceTestOutputDir name="accelerate/java/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -31,9 +33,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="accelerate" target="16" />
       <module name="Accelerate" target="16" />
       <module name="java" target="16" />
       <module name="java (1)" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="GreclipseSettings">
+    <option name="greclipsePath" value="$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-eclipse-batch/2.4.3-01/groovy-eclipse-batch-2.4.3-01.jar" />
   </component>
 </project>

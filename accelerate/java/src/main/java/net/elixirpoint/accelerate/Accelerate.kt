@@ -5,5 +5,6 @@ object Accelerate {
     fun main(args: Array<String>) {
         val message = Main("Hello World!")
         println(message.message)
+        println(Runner.main)
     }
 }
