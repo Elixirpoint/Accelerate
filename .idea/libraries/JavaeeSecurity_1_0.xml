@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JavaeeSecurity-1.0" type="JavaeeSecurity">
+    <properties version="1.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.security.enterprise-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.security.jacc-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.security.auth.message-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.security.enterprise.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
