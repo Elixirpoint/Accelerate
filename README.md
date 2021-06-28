@@ -4,4 +4,4 @@ A [Minecraft](https://www.minecraft.net/) server implementation focused on optim
 
 ## Licence
 
-This project is released under the [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) license. Learn more in the included [LICENSE.md](LICENCE.md) file.
+This project is released under the [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) license. Learn more in the included [LICENSE.md](LICENCE.md) file.
