@@ -1,6 +1,8 @@
 package net.elixirpoint.accelerate;
 
-public interface Engine {
+public interface Engine
+{
     void start();
+
     void stop();
 }

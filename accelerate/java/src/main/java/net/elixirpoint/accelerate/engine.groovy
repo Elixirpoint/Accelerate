@@ -1,10 +1,11 @@
 package net.elixirpoint.accelerate
 
 class engine {
-    def start(){
+    static def start() {
         println "Start the engines!"
     }
-    def stop(){
+
+    static def stop() {
         println "Stop at once!"
     }
 }
