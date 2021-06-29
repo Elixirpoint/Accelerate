@@ -1,6 +1,6 @@
 package net.elixirpoint.accelerate
 
-class engine {
+class EngineInterface {
     static def start() {
         println "Start the engines!"
     }

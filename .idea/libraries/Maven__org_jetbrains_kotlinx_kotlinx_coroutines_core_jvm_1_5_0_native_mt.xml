@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0-native-mt">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
