@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>accelerate/java</module>
+        <module>accelerate/api</module>
     </modules>
 
 

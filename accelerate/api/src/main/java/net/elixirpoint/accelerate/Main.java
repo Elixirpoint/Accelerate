@@ -1,5 +1,7 @@
 package net.elixirpoint.accelerate;
 
+import javax.swing.*;
+
 public class Main
 {
 
@@ -8,6 +10,14 @@ public class Main
     public Main(String s)
     {
         message = s;
+    }
+
+    public static void main(String[] args) throws InterruptedException
+    {
+        HelloWorld scalaClass = new HelloWorld();
+        Timer timer = new Timer(1000, scalaClass);
+        timer.start();
+        Thread.sleep(10000);
     }
 
     public String getMessage()

@@ -3,11 +3,10 @@ package net.elixirpoint.accelerate;
 import groovy.lang.GroovyShell;
 
 import java.io.File;
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-public class GroovyRun
+public class CallGroovy
 {
     public static void main(final String[] args)
     {
@@ -53,19 +52,13 @@ public class GroovyRun
             {
                 return (Engine) Proxy.newProxyInstance(app.getClass().getClassLoader(),
                                                        new Class[] {Engine.class},
-                                                       new InvocationHandler()
-                                                       {
-                                                           @Override
-                                                           public Object invoke(Object proxy, Method method,
-                                                                                Object[] args)
-                                                                   throws Throwable
+                                                       (proxy, method, args1) ->
                                                            {
-                                                               Method m = app.getClass().getMethod(method.getName());
-                                                               return m.invoke(app, args);
-                                                           }
-                                                       });
+                                                           Method m = app.getClass().getMethod(method.getName());
+                                                           return m.invoke(app, args1);
+                                                           });
             }
         }).start();
-        engine.start();
+        EngineInterface.start();
     }
 }
