@@ -3,16 +3,14 @@ package net.elixirpoint.accelerate;
 import groovy.lang.GroovyShell;
 
 import java.io.File;
-import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 public class GroovyRun
 {
-    public static void main(final String[] args) throws IOException
+    public static void main(final String[] args)
     {
-        GroovyShell shell = new GroovyShell();
         new Thread(new Runnable()
         {
             @Override
@@ -40,8 +38,8 @@ public class GroovyRun
                         if (timestamp < file.lastModified())
                             {
                                 timestamp = file.lastModified();
-                                app = shell.evaluate(file);
-                                e = getEngine(app);
+                                app       = shell.evaluate(file);
+                                e         = getEngine(app);
                             }
 
                         e.start();
@@ -50,14 +48,16 @@ public class GroovyRun
                         Thread.sleep(5000);
                     }
             }
+
             private Engine getEngine(final Object app)
             {
                 return (Engine) Proxy.newProxyInstance(app.getClass().getClassLoader(),
-                                                       new Class[]{Engine.class},
+                                                       new Class[] {Engine.class},
                                                        new InvocationHandler()
                                                        {
                                                            @Override
-                                                           public Object invoke(Object proxy, Method method, Object[] args)
+                                                           public Object invoke(Object proxy, Method method,
+                                                                                Object[] args)
                                                                    throws Throwable
                                                            {
                                                                Method m = app.getClass().getMethod(method.getName());
@@ -66,5 +66,6 @@ public class GroovyRun
                                                        });
             }
         }).start();
+        engine.start();
     }
 }

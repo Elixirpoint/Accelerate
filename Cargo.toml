@@ -1,9 +1,9 @@
 [workspace]
 members = [
     # Main directory
-    "accelerate",
+    "accelerate/server",
 ]
 default-members = [
     # Main directory
-    "accelerate",
+    "accelerate/server",
 ]
