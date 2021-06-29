@@ -23,7 +23,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="accelerate-api" />
-        <module name="java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
