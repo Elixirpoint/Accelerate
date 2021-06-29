@@ -38,8 +38,8 @@ public class GroovyRun
                         if (timestamp < file.lastModified())
                             {
                                 timestamp = file.lastModified();
-                                app = shell.evaluate(file);
-                                e = getEngine(app);
+                                app       = shell.evaluate(file);
+                                e         = getEngine(app);
                             }
 
                         e.start();
@@ -52,11 +52,12 @@ public class GroovyRun
             private Engine getEngine(final Object app)
             {
                 return (Engine) Proxy.newProxyInstance(app.getClass().getClassLoader(),
-                                                       new Class[]{Engine.class},
+                                                       new Class[] {Engine.class},
                                                        new InvocationHandler()
                                                        {
                                                            @Override
-                                                           public Object invoke(Object proxy, Method method, Object[] args)
+                                                           public Object invoke(Object proxy, Method method,
+                                                                                Object[] args)
                                                                    throws Throwable
                                                            {
                                                                Method m = app.getClass().getMethod(method.getName());

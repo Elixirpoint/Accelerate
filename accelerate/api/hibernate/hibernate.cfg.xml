@@ -4,8 +4,8 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url"/>
-        <property name="connection.driver_class"/>
+        <property name = "connection.url"/>
+        <property name = "connection.driver_Main"/>
         <!-- <property name="connection.username"/> -->
         <!-- <property name="connection.password"/> -->
 
