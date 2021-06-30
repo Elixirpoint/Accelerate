@@ -14,7 +14,7 @@ public class Main
 
     public static void main(String[] args) throws InterruptedException
     {
-        HelloWorld scalaClass = new HelloWorld();
+        ScalaRunner scalaClass = new ScalaRunner();
         Timer timer = new Timer(1000, scalaClass);
         timer.start();
         Thread.sleep(10000);
