@@ -113,6 +113,11 @@
             <name>plugins-release</name>
             <url>https://oss.jfrog.org/artifactory/plugins-release/</url>
         </pluginRepository>
+        <pluginRepository>
+            <id>sonatype</id>
+            <name>sonatype</name>
+            <url>https://oss.sonatype.org/content/groups/public/</url>
+        </pluginRepository>
     </pluginRepositories>
     <build>
         <pluginManagement>
