@@ -59,6 +59,6 @@ public class CallGroovy
                                                            });
             }
         }).start();
-        EngineInterface.start();
+        GroovyRunner.start();
     }
 }

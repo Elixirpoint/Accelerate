@@ -1,6 +1,6 @@
 package net.elixirpoint.accelerate
 
-class EngineInterface {
+class GroovyRunner {
     static def start() {
         println "Start the engines!"
     }
