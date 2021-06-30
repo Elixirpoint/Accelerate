@@ -4,15 +4,15 @@
     <option name="directories">
       <list>
         <option value="../src/main/kotlin" />
-        <option value="C:\Users\19380\IdeaProjects\Accelerate\accelerate\api/src/test/java" />
-        <option value="C:\Users\19380\IdeaProjects\Accelerate\accelerate\api/src/test/kotlin" />
+        <option value="$MODULE_DIR$/src/test/java" />
+        <option value="$MODULE_DIR$/src/test/kotlin" />
         <option value="src/main/java" />
       </list>
     </option>
   </component>
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
         <compilerSettings />
         <compilerArguments>
           <option name="languageVersion" value="1.5" />
@@ -30,7 +30,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_16">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
