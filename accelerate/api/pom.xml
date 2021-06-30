@@ -162,7 +162,7 @@
         <plugins>
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
-                <artifactId>maven-scala-plugin</artifactId>
+                <artifactId>scala-maven-plugin</artifactId>
                 <version>4.5.3</version>
                 <executions>
                     <execution>
