@@ -8,7 +8,7 @@
     <artifactId>accelerate-api</artifactId>
     <version>0.1.0</version>
 
-    <name>Accelerate</name>
+    <name>Accelerate_API</name>
 
     <repositories>
         <repository>
