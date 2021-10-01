@@ -1,7 +1,6 @@
 # Accelerate
 
-Accelerate will be (Soon™) a [Minecraft](https://www.minecraft.net/) server implementation focused on optimization, written
-in [Rust](https://www.rust-lang.org/).
+Accelerate will be (Soon™) a [Minecraft](https://www.minecraft.net/) server implementation focused on optimization, written primarily in [Rust](https://www.rust-lang.org/).
 
 ## Licence
 
